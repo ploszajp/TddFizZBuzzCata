@@ -4,6 +4,6 @@
 4. V Get "Fizz" when pass 3
 5. V Get "Buzz" when pass 5
 6. V Get "Fizz" when pass 6
-7. Get "Fizz" when pass 3
-8. Get "Buzz" when pass 10
+7. V Get "Fizz" when pass 3
+8. V Get "Buzz" when pass 10
 9. Get "FizzBuzz" when pass 15
