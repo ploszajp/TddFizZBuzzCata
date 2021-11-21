@@ -14,3 +14,7 @@ TEST(FizzBuzzTest, WhenPass1Returns1) {
 TEST(FizzBuzzTest, WhenPass2Returns2) {
 	checkFizzBuzz(2, "2");
 }
+
+TEST(FizzBuzzTest, WhenPass3ReturnsFizz) {
+	checkFizzBuzz(3, "Fizz");
+}
