@@ -1,5 +1,5 @@
 #pragma once
 std::string FizzBuzz(int value)
 {
-	return "1";
+	return std::to_string(value);
 }

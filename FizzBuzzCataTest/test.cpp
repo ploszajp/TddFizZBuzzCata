@@ -1,8 +1,16 @@
 #include "pch.h"
 #include "..\FizzBuzzCata\FizzBuzz.h"
 
-TEST(FizzBuzzTest, WhenPass1Returns1) {
-	std::string result = FizzBuzz(1);
-	ASSERT_STREQ(result.c_str(), "1");
+void checkFizzBuzz(int value, std::string expectedResult)
+{
+	std::string result = FizzBuzz(value);
+	ASSERT_STREQ(expectedResult.c_str(), result.c_str());
 }
+
+TEST(FizzBuzzTest, WhenPass1Returns1) {
+	checkFizzBuzz(1, "1");
+}
+
+TEST(FizzBuzzTest, WhenPass2Returns2) {
+	checkFizzBuzz(2, "2");
 }
