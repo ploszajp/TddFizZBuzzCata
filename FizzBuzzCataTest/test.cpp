@@ -22,3 +22,7 @@ TEST(FizzBuzzTest, WhenPass3ReturnsFizz) {
 TEST(FizzBuzzTest, WhenPass5ReturnsBuzz) {
 	checkFizzBuzz(5, "Buzz");
 }
+
+TEST(FizzBuzzTest, WhenPass6ReturnsFizz) {
+	checkFizzBuzz(6, "Fizz");
+}
