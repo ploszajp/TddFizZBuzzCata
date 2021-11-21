@@ -7,11 +7,16 @@ bool IsMultiple(int value, int base)
 
 std::string FizzBuzz(int value)
 {
+	std::string result = "";
+	
 	if (IsMultiple(value, 3))
-		return "Fizz";
+		result += "Fizz";
 
 	if (IsMultiple(value, 5))
-		return "Buzz";
+		result += "Buzz";
 
-	return std::to_string(value);
+	if (result == "")
+		result = std::to_string(value);
+	
+	return result;
 }

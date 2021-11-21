@@ -30,3 +30,7 @@ TEST(FizzBuzzTest, WhenPass6ReturnsFizz) {
 TEST(FizzBuzzTest, WhenPass10ReturnsBuzz) {
 	checkFizzBuzz(10, "Buzz");
 }
+
+TEST(FizzBuzzTest, WhenPass15ReturnsFizzBuzz) {
+	checkFizzBuzz(15, "FizzBuzz");
+}
